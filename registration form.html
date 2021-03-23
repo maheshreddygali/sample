@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<center>
+<h1>Registration Form</h1>
+</center>
+</head>
+
+<body>
+<title>Registration Form</title>
+<body style="background-color : skyblue;"/>
+<center>
+<form>
+<p><i><b>Please fill this form to create an account</b></i></p>
+
+<label for="fname">First Name : </label>
+<input type="text" name="first name" id="fname" placeholder="Enter your first name"><br><br>
+
+<label for="mname">Middle Name : </label>
+<input type="text" name="middle name" id="mname" placeholder="Enter your Middle name" required><br><br>
+
+<label for="lname">Last Name : </label>
+<input type="text" name="last name" id="lname" placeholder="Enter your last name"><br><br>
+
+<label>Gender : </label>
+<input type = "radio" name="Gender" id="male" required><label for = "male">Male</label>
+<input type = "radio" name="Gender" id="female"><label for = "female">Female</label>
+<input type = "radio" name="Gender" id="others"><label for = "others">Others</label>
+<br><br>
+
+<label for="email">Email : </label>
+<input type="email" name="email" id="email" placeholder="Enter your Email" required><br><br>
+
+<label for="DOB">Date Of Birth : </label>
+<input type="date" name="DOB" id="DOB" placeholder="Enter your Date of Birth" required><br><br>
+
+<lable for="Phone">Phone Number : </label>
+<input type="number" name="Phone number" id="phone" placeholder="Enter your phone number" required><br><br>
+
+<label for="password">Password</label>
+<input type="password" name="password" id="password" placeholder="Enter your Password" required><br><br>
+
+<label for="re-pass">Re-Enter Password</label>
+<input type="password" name="Re-Enter password" id="re-pass" placeholder="Re-Enter your Password" required><br><br>
+
+<label for="country">Select Your Country</label>
+<select name="Countries" id="Country">
+<option value="none" id="country">--none--</option>
+<option value="india" id="country">India</option>
+<option value="america" id="country">America</option>
+<option value="china" id="country">China</option>
+<option value="japan" id="country">Japan</option>
+<option value="germany" id="country">Germany</option>
+<option value="korea" id="country">Korea</option>
+</select><br><br>
+
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+
+</form>
+</center>
+</body>
+
+</html>
